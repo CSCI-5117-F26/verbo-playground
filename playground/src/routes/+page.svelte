@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1>This is my basic example page</h1>
+<p>tech stack 2</p>
+
+<script>
+	let message = $state('');
+</script>
+
+<div class="container">
+    <input bind:value={message} /><p>{message}</p>
+</div>
